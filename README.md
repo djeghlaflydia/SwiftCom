@@ -22,7 +22,7 @@ Access to the application is through a secure login page. The default credential
 - **Password**: admin
 After logging in, the user is redirected to the dashboard, where they can navigate through different sections via an intuitive navigation bar.
 
-![git1](https://github.com/user-attachments/assets/299e3ac2-9c9d-44e7-870e-92fee358ec25)
+![git1](https://github.com/user-attachments/assets/37e57e53-4d6f-44aa-ac5f-7c70f4cd1448)
 
 ## Dashboard
 The dashboard provides an overview of transactions, with several options to filter and analyze the data:
@@ -35,12 +35,14 @@ The dashboard provides an overview of transactions, with several options to filt
 
 Users can also view statistics in the form of charts to analyze successful and rejected transactions, as well as compare transaction volumes between clients and institutions.
 
-![git2](https://github.com/user-attachments/assets/7aabf895-5270-4e2b-bc09-c4cb1998605f)
+![git2](https://github.com/user-attachments/assets/54fd6a8d-3295-4f6b-8d61-d08058aa3e58)
 
 ## Application Sections
 1. **Responses**
 View and manage responses to financial transactions, with advanced filtering and search options.
-![git3](https://github.com/user-attachments/assets/21c0512a-f4a0-495b-a767-902aacfc00bc)
+
+![git3](https://github.com/user-attachments/assets/52788e0f-60c8-4c80-a33a-47d3e1ac314e)
+
 2. **Account Statements**
 Access detailed account statements, view past transactions, and filter by date, sender, or receiver.
 3. **Financial Messages**
