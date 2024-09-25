@@ -10,10 +10,43 @@ By leveraging React.js for the user interface, Tailwind CSS for responsive desig
 
 ## Features
 
-- **Interactive Dashboard**: A comprehensive, user-friendly interface designed for simplicity and efficiency.
-- **Real-Time Data Visualization**: Analyze transactional data through dynamic, interactive charts powered by Chart.js.
-- **Advanced Filtering**: WIntuitive filters for quick and precise transaction management, ensuring users can swiftly find relevant data.
+- **Track financial transactions**: Get an overall view of financial exchanges between the two banks, with filtering options by day, week, month, or year.
+- **Manage financial and non-financial messages**: Efficiently handle transactions and communications between banking institutions.
+- **Real-time visualization**: Access clear and precise transaction statistics through interactive graphical representations.
+- **Account statement history**: Easily access transaction details, including sender, receiver, and transaction date.
 - **Mobile-Responsive Design**: A fully responsive layout developed using Tailwind CSS, ensuring accessibility across all devices.
+
+## Logging into SwiftCom
+Access to the application is through a secure login page. The default credentials are:
+- **Username**: admin
+- **Password**: admin
+After logging in, the user is redirected to the dashboard, where they can navigate through different sections via an intuitive navigation bar.
+
+![git1](https://github.com/user-attachments/assets/299e3ac2-9c9d-44e7-870e-92fee358ec25)
+
+## Dashboard
+The dashboard provides an overview of transactions, with several options to filter and analyze the data:
+- **All time**
+- **Daily**
+- **Weekly**
+- **Monthly**
+- **Yearly**
+- **A chosen period**
+
+Users can also view statistics in the form of charts to analyze successful and rejected transactions, as well as compare transaction volumes between clients and institutions.
+
+![git2](https://github.com/user-attachments/assets/7aabf895-5270-4e2b-bc09-c4cb1998605f)
+
+## Application Sections
+1. **Responses**
+View and manage responses to financial transactions, with advanced filtering and search options.
+![git3](https://github.com/user-attachments/assets/21c0512a-f4a0-495b-a767-902aacfc00bc)
+2. **Account Statements**
+Access detailed account statements, view past transactions, and filter by date, sender, or receiver.
+3. **Financial Messages**
+Manage and track messages related to financial transactions. This section includes search tools and filtering options for better transaction data management.
+4. **Free Messages**
+A dedicated space for non-financial communications exchanged between banking institutions, including details like sender, receiver, and message values.
 
 
 ## Technologies Used

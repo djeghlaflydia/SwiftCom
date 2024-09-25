@@ -10,29 +10,25 @@ import Account_statements from './Account_statements.jsx';
 import Free_massages from './Free_messages.jsx';
 
 function App() {
-
-  return(
-    <>
-      <LogIn />     
-    </>
+  return (
+    <div>
+      <Routes>
+        <Route path="/" element={<LogIn />} />
+        <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/financial_messages" element={<Financial_messages />} />
+        <Route path="/answers" element={<Answers />} />
+        <Route path="/account_statements" element={<Account_statements />} />
+        <Route path="/free_massages" element={<Free_massages />} />
+      </Routes>
+    </div>
   );
 }
 
-
-
-
 function Main() {
   return (
-      <Router>
-          <Routes>
-              <Route path="/" element={<App />} />
-              <Route path="/dashboard" element={<Dashboard />} />
-              <Route path="/financial_messages" element={<Financial_messages />}/>
-              <Route path="/answers" element={<Answers />} />
-              <Route path="/account_statements" element={<Account_statements />} />
-              <Route path="/free_massages" element={<Free_massages />} />
-          </Routes>
-      </Router>
+    <Router basename="/SwiftCom"> {/* Ajoute le basename ici */}
+      <App />
+    </Router>
   );
 }
 
