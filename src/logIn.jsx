@@ -4,6 +4,8 @@ import axios from 'axios';
 import CryptoJS from 'crypto-js'; 
 import './index.css';
 import logo from '/src/assets/BDL.png';
+import bigbg from '/src/assets/14.png';
+import smallbg from '/src/assets/13.png';
 
 const LogIn = () => {
     const navigate = useNavigate();
@@ -102,9 +104,9 @@ const LogIn = () => {
 
 
     return (
-        <div className="min-h-screen bg-[#d9d8d8] bg-[url('src/assets/14.png')] bg-cover font-medium ">
+        <div className="min-h-screen bg-[#d9d8d8] font-medium" style={{ backgroundImage: `url(${bigbg})`, backgroundSize: 'cover' }}>
             <div className="flou w-full h-screen bg-no-repeat bg-cover bg-center backdrop-blur-md"></div>
-            <div className="container absolute top-1/2 left-1/2 w-3/4 h-[38vw] bg-[url('src/assets/13.png')] backdrop-blur-md shadow-2xl bg-no-repeat bg-cover bg-center rounded-lg transform -translate-x-1/2 -translate-y-1/2 mt-5">
+            <div className="container absolute top-1/2 left-1/2 w-3/4 h-[38vw] bg-no-repeat bg-cover bg-center rounded-lg transform -translate-x-1/2 -translate-y-1/2 mt-5" style={{ backgroundImage: `url(${smallbg})`, backdropFilter: 'blur(5px)', borderRadius: '1rem', boxShadow: '0 10px 15px rgba(0,0,0,0.3)' }}>
                 
                 <div className="content absolute top-0 left-0 w-3/5 h-full p-[6vw] backdrop-blur-md sm:p-[6vw] md:p-[6vw] text-[#e4e4e4] flex flex-col justify-between">
                 <h2 className="logo text-[20px] sm:text-[25px] md:text-[40px] font-bold flex items-center">
