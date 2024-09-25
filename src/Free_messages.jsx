@@ -31,7 +31,7 @@ const FreeMassages = () => {
 
   const handleMessageClick = (message) => {
     // Construct URL for the .txt file based on FILENAME
-    const fileUrl = `/${message.FILENAME}`;
+    const fileUrl = `/SwiftCom/${message.FILENAME}`;
 
     window.open(fileUrl, '_blank');
 

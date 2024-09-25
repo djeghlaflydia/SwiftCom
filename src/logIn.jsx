@@ -102,9 +102,9 @@ const LogIn = () => {
 
 
     return (
-        <div className="min-h-screen bg-[#d9d8d8] bg-[url('src/assets/14.jpg')] bg-cover font-medium ">
+        <div className="min-h-screen bg-[#d9d8d8] bg-[url('src/assets/14.png')] bg-cover font-medium ">
             <div className="flou w-full h-screen bg-no-repeat bg-cover bg-center backdrop-blur-md"></div>
-            <div className="container absolute top-1/2 left-1/2 w-3/4 h-[38vw] bg-[url('src/assets/13.jfif')] backdrop-blur-md shadow-2xl bg-no-repeat bg-cover bg-center rounded-lg transform -translate-x-1/2 -translate-y-1/2 mt-5">
+            <div className="container absolute top-1/2 left-1/2 w-3/4 h-[38vw] bg-[url('src/assets/13.png')] backdrop-blur-md shadow-2xl bg-no-repeat bg-cover bg-center rounded-lg transform -translate-x-1/2 -translate-y-1/2 mt-5">
                 
                 <div className="content absolute top-0 left-0 w-3/5 h-full p-[6vw] backdrop-blur-md sm:p-[6vw] md:p-[6vw] text-[#e4e4e4] flex flex-col justify-between">
                 <h2 className="logo text-[20px] sm:text-[25px] md:text-[40px] font-bold flex items-center">
