@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.input-box input:focus~label,
+.input-box input:valid~label{
+   top: -5px
+}
+.input-box label{
+    transition: .5s ease ;
+}
+.flou{
+    filter: blur(20px)
+}
+
