@@ -77,8 +77,6 @@ A dedicated space for non-financial communications exchanged between banking ins
 4. **Start the Development Server**
    ```bash
    npm run dev
-5. **Open Your Browser**
- Go to http://localhost:5173 to start playing!
 
 ## Contributing
 We welcome contributions to **SwiftCom**! If you have suggestions or improvements, please open an issue or submit a pull request.
