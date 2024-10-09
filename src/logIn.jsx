@@ -139,7 +139,7 @@ const LogIn = () => {
                 </div>
 
                 <div className={`logreg-box overflow-hidden ${isActive ? 'active' : ''} absolute top-0 right-0 w-2/5 h-full backdrop-blur-2xl`}>
-                    <div className={`form-box login transform ${isActive ? 'translate-x-[430px] delay-0' : 'translate-x-0 delay-700'} transition-transform duration-700 ease-in-out absolute flex justify-center items-center w-full h-full backdrop-blur-2xl rounded-tr-lg rounded-br-lg text-[#e4e4e4]`}> 
+                    <div className={`form-box login transform ${isActive ? 'translate-x-[430px] delay-0 flex' : 'translate-x-0 delay-700 hidden'} transition-transform duration-700 ease-in-out absolute justify-center items-center w-full h-full backdrop-blur-2xl rounded-tr-lg rounded-br-lg text-[#e4e4e4]`}> 
                         <form onSubmit={handleLogin}>
                             <h2 className="text-[2.5vw] text-center font-bold mb-[0] sm:mb-[0] md:mb-[3vw]">Se connecter</h2>
 
@@ -193,7 +193,7 @@ const LogIn = () => {
 
 
 
-                    <div className={`form-box register transform ${isActive ? 'translate-x-0 delay-700' : 'translate-x-[430px] delay-500'} transition-transform duration-500 ease-in-out flex justify-center items-center w-full h-full backdrop-blur-2xl rounded-tr-lg rounded-br-lg text-[#e4e4e4]`}>
+                    <div className={`form-box register transform ${isActive ? 'translate-x-0 delay-700 flex' : 'translate-x-[430px] delay-500 hidden'} transition-transform duration-500 ease-in-out justify-center items-center w-full h-full backdrop-blur-2xl rounded-tr-lg rounded-br-lg text-[#e4e4e4]`}>
                         <form onSubmit={handleSignUp}>
                             <h2 className="text-[2.5vw] text-center font-bold mb-[0] sm:mb-[0] md:mb-[1vw]">S'inscrire</h2>
                             
